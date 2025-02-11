@@ -24,4 +24,4 @@ spec:
           effect: "NoExecute"
       containers:
         - name: krampoline
-          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_9cffd36c85a0
+          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_9e2cf925a25a
