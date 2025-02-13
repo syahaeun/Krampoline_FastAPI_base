@@ -7,9 +7,11 @@ WORKDIR /app
 
 # 필요한 Python 스크립트를 이미지에 추가
 COPY index.py /app/
+COPY requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
 
 # 서버가 실행될 때 사용되는 포트
 EXPOSE 3000
 
 # 컨테이너를 시작할 때 Python 스크립트를 실행
-CMD ["python", "/app/index.py"]
+CMD ["uvicorn", "/app/index.py"]
