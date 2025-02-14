@@ -2,7 +2,7 @@
 
 ## 소개
 
-`krampoline-step1`을 수정하여 만든 FastAPI 베이스 입니다
+`krampoline-step1`을 수정하여 만든 FastAPI 베이스 입니다   
 이 저장소에서는 `index.py`를 사용하여 3000번 포트에서 서버를 열고 {"message": "Hello World"}"를 출력하는 예제를 제공합니다.
 
 
