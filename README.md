@@ -1,9 +1,9 @@
-# krampoline-step1
+# Krampoline_FastAPI_base
 
 ## 소개
 
-`krampoline-step1`은 krampoline의 가장 기본적인 예제입니다. 
-이 저장소에서는 `index.py`를 사용하여 3000번 포트에서 서버를 열고 "hello krampoline!"를 출력하는 예제를 제공합니다.
+`krampoline-step1`을 수정하여 만든 FastAPI 베이스 입니다
+이 저장소에서는 `index.py`를 사용하여 3000번 포트에서 서버를 열고 {"message": "Hello World"}"를 출력하는 예제를 제공합니다.
 
 
 쿠버네티스 구성은 다음과 같습니다.
